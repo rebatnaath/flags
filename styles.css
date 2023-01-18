@@ -4,7 +4,7 @@
 
 @media only screen and (min-width: 1080px) and (max-width: 2400px) {
   #flag-container {
-    width: 90%; /* decrease the width of the flag container */
+    width: auto; /* decrease the width of the flag container */
     height: auto; /* adjust the height to automatically fit the image */
   }
   
