@@ -99,3 +99,9 @@ body {
   margin-top:10px;
   color: #f0f0f0;
 }
+
+.small-screen #flag-container {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+}
