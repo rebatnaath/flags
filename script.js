@@ -4,6 +4,11 @@
 const highScoreDisplay = document.getElementById("high-score");
 highScoreDisplay.textContent = `High Score: ${highScore}`;
  
+//check user's screen
+if (window.innerWidth < 600) {
+  document.body.classList.add("small-screen");
+}
+
  // Array of flags
  const flags = [
   {
